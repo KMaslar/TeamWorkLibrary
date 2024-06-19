@@ -1,0 +1,22 @@
+{
+  "name": "TeamWorkPod",
+  "version": "0.1.0",
+  "summary": "A short description of TeamWorkPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Kostadina Geceska/TeamWorkPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Kostadina Geceska": "kostadinag@nextsense.com"
+  },
+  "source": {
+    "git": "https://github.com/Kostadina Geceska/TeamWorkPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "TeamWorkPod/Classes/**/*"
+}

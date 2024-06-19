@@ -1,0 +1,16 @@
+PODS:
+  - TeamWorkPod (0.1.0)
+
+DEPENDENCIES:
+  - TeamWorkPod (from `../`)
+
+EXTERNAL SOURCES:
+  TeamWorkPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TeamWorkPod: 89552e1bf1b766cfbda215b6d8afd1f3c413a752
+
+PODFILE CHECKSUM: 845fa0bec5fd4a3af000e214e5f89d31a0f80a13
+
+COCOAPODS: 1.15.2

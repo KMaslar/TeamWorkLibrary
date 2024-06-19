@@ -1,0 +1,6 @@
+framework module TeamWorkPod {
+  umbrella header "TeamWorkPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

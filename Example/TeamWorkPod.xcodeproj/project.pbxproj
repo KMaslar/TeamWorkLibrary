@@ -43,9 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7BBD628F52DC2C1D5CDD4F54 /* Pods-TeamWorkPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorkPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-TeamWorkPod_Tests/Pods-TeamWorkPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7BF2859108D920C4E02750A3 /* Pods-TeamWorkPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TeamWorkPod_Example.release.xcconfig"; path = "Target Support Files/Pods-TeamWorkPod_Example/Pods-TeamWorkPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8CF988440898E71509FFF5B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BA342B7F9C6DD9A32BCCF7ED /* TeamWorkPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TeamWorkPod.podspec; path = ../TeamWorkPod.podspec; sourceTree = "<group>"; };
-		CDD69000F2DB1DC708FA5F06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8CF988440898E71509FFF5B7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BA342B7F9C6DD9A32BCCF7ED /* TeamWorkPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TeamWorkPod.podspec; path = ../TeamWorkPod.podspec; sourceTree = "<group>"; };
+		CDD69000F2DB1DC708FA5F06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E4C7ADF629F1A0F21C7D59D3 /* Pods_TeamWorkPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TeamWorkPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				2D450594D2FA62AC1D272F67 /* Pods-TeamWorkPod_Tests.debug.xcconfig */,
 				7BBD628F52DC2C1D5CDD4F54 /* Pods-TeamWorkPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
